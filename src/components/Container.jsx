@@ -100,7 +100,7 @@ const formatTime = (seconds) => {
               <h1 id='albumtitle'><b>My Favourites</b></h1>
               <div className='name'>
                 <img src={profile} alt='' id='user2' />
-                <p>My Name.</p><p>9 songs</p>
+                <p>My Name.</p><p>6 songs</p>
               </div>
             </div>
           </div>
