@@ -40,11 +40,20 @@
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    background: linear-gradient(to bottom, #424293 0%, #212121 75%);
+    z-index:1;
     overflow-x: hidden;
     overflow-y: scroll;
     scrollbar-color: rgb(255, 0, 0);
     scrollbar-width: none;
+}
+
+.container-over{
+    background: linear-gradient(to bottom, #121212 3%, #ff0066 15%, #121212 65%);
+    width:100%;
+    height: 100%;
+    max-height: 100%;
+    z-index:0;
+    position: absolute;
 }
 
 .Footer{
@@ -241,6 +250,8 @@ color: grey;
     padding-right: 20px;
     opacity: 80%;
     position: sticky;
+    top:0;
+    z-index: 5;
 }
 
 #btn{
@@ -265,10 +276,10 @@ color: grey;
 
 
 .theme{
-    
     color: white;
     display: flex;
     flex-direction: column;
+    overflow: none;
     
 }
 #albumtitle{
@@ -300,6 +311,7 @@ color: grey;
     flex-direction: row;
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 
 
@@ -315,11 +327,189 @@ color: grey;
 
 .songdata{
     width: 100%;
-    height: 550px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.over{
+    position: absolute;
     background-color: rgb(18, 18, 18);
     opacity: 30%;
 }
+
+.songdata table{
+    width: 90%;
+    z-index: 2;
+}
+
+
+  
+  .tablehead th {
+    padding: 10px;
+    text-align: left;
+    color: rgb(190, 190, 190);
+    border-bottom: 1px solid grey;
+  }
+
+  .child-1 {
+    width: 5%;    
+  }
+  
+
+  .child-2 {
+    width: 85%;
+    font-size: 1.1em;
+  }
+
+  .child-3 {
+    width: 10%;
+    text-align: center;
+  }
+  
+  .child-3 img {
+    width: 20px; /* Adjust the size of the image */
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  td{
+    padding: 10px;
+    text-align: left;
+    color: grey;
     
+  }
+
+  #td2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+  }
+
+  td img{
+    width: 30px;
+    height: fit-content;
+    margin-left: 10px;
+    cursor: pointer;
+
+  }
+
+
+
+/* AUDIO CONTROLS */
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #333333 0%, #666666 100%);
+
+
+
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    width:100%;
+    height: max-content;
+  }
+  
+  .audio-controls p {
+    font-size: 28px;
+    color: #ffffff;
+    margin-right: auto;
+  }
+  
+  .controlrow button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .audio-controls img {
+    width: 25px;
+  }
+  
+  .audio-controls label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .audio-controls input[type="range"] {
+    width: 150px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 5px;
+    margin-left: 10px;
+  }
+  
+  .audio-controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+
+  .seek-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .seek-bar input[type="range"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    width:50vw;
+    height: 5px;
+    background: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .seek-bar input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .seek-bar span {
+    color: #ffffff;
+    font-size: 14px;
+    min-width: 75px;
+  }
+  
+  .fullconrols{
+    width:90%;
+  }
+  
+.controlrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+}
+
+  
 
 @media screen and (max-width: 1024px){
     .menu{
@@ -329,3 +519,4 @@ color: grey;
         width: calc(100vw - 5px);
     }
 }
+
