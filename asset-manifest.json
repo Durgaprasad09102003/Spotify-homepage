@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Spotify-homepage/static/css/main.b0c0b595.css",
-    "main.js": "/Spotify-homepage/static/js/main.a1e43b37.js",
+    "main.js": "/Spotify-homepage/static/js/main.cbb11302.js",
     "static/js/453.26350957.chunk.js": "/Spotify-homepage/static/js/453.26350957.chunk.js",
     "static/media/Aa Rojulu Malli Raavu.mp3": "/Spotify-homepage/static/media/Aa Rojulu Malli Raavu.2cfb9c2298a0208d53e3.mp3",
     "static/media/Kashmeeru.mp3": "/Spotify-homepage/static/media/Kashmeeru.3d6c81a0909cd10a9982.mp3",
@@ -25,11 +25,11 @@
     "static/media/bell icon.png": "/Spotify-homepage/static/media/bell icon.923118daa1bff2ec2fe3.png",
     "index.html": "/Spotify-homepage/index.html",
     "main.b0c0b595.css.map": "/Spotify-homepage/static/css/main.b0c0b595.css.map",
-    "main.a1e43b37.js.map": "/Spotify-homepage/static/js/main.a1e43b37.js.map",
+    "main.cbb11302.js.map": "/Spotify-homepage/static/js/main.cbb11302.js.map",
     "453.26350957.chunk.js.map": "/Spotify-homepage/static/js/453.26350957.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0c0b595.css",
-    "static/js/main.a1e43b37.js"
+    "static/js/main.cbb11302.js"
   ]
 }
