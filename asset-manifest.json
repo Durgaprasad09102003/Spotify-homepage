@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/Spotify-homepage/static/css/main.95868321.css",
-    "main.js": "/Spotify-homepage/static/js/main.11f86ea8.js",
+    "main.css": "/Spotify-homepage/static/css/main.b0c0b595.css",
+    "main.js": "/Spotify-homepage/static/js/main.a1e43b37.js",
     "static/js/453.26350957.chunk.js": "/Spotify-homepage/static/js/453.26350957.chunk.js",
+    "static/media/Aa Rojulu Malli Raavu.mp3": "/Spotify-homepage/static/media/Aa Rojulu Malli Raavu.2cfb9c2298a0208d53e3.mp3",
+    "static/media/Kashmeeru.mp3": "/Spotify-homepage/static/media/Kashmeeru.3d6c81a0909cd10a9982.mp3",
+    "static/media/Thala Vanchi Eragade.mp3": "/Spotify-homepage/static/media/Thala Vanchi Eragade.81d41dda3abf53cb2109.mp3",
+    "static/media/Kadalalle.mp3": "/Spotify-homepage/static/media/Kadalalle.78298f08cc1704b64f65.mp3",
+    "static/media/Telisiney Na Nuvvey.mp3": "/Spotify-homepage/static/media/Telisiney Na Nuvvey.fb142ebe8fa18328a0ac.mp3",
+    "static/media/Arjan Vailly.mp3": "/Spotify-homepage/static/media/Arjan Vailly.e7a7abe773c221c19f44.mp3",
     "static/media/white_logo.png": "/Spotify-homepage/static/media/white_logo.921a72b79d1909357a51.png",
     "static/media/world_icon.png": "/Spotify-homepage/static/media/world_icon.5f27250999813b274957.png",
+    "static/media/stop.png": "/Spotify-homepage/static/media/stop.0b379273897062f54932.png",
+    "static/media/fav temp.jpg": "/Spotify-homepage/static/media/fav temp.35db56effe0d5e4583fd.jpg",
     "static/media/CircularSpotifyText-Medium.otf": "/Spotify-homepage/static/media/CircularSpotifyText-Medium.7f8341c6940468e86d8d.otf",
-    "static/media/album.jpg": "/Spotify-homepage/static/media/album.40a8e40a90f855a4f895.jpg",
+    "static/media/pause1.png": "/Spotify-homepage/static/media/pause1.31e15c2b250732878abd.png",
     "static/media/profile.jpg": "/Spotify-homepage/static/media/profile.8614a1320b7318849cb3.jpg",
     "static/media/search_icon.png": "/Spotify-homepage/static/media/search_icon.265a38582130035fe898.png",
+    "static/media/volume.png": "/Spotify-homepage/static/media/volume.f7ce14e53568baebead1.png",
     "static/media/fav.png": "/Spotify-homepage/static/media/fav.6ee2f082f979551e2572.png",
+    "static/media/time1.png": "/Spotify-homepage/static/media/time1.f48c62bfa1a93b2a322f.png",
     "static/media/plus_icon1.png": "/Spotify-homepage/static/media/plus_icon1.3c30adb52ab97e24f231.png",
     "static/media/home_icon.png": "/Spotify-homepage/static/media/home_icon.56b4b07acec17690e22e.png",
     "static/media/bell icon.png": "/Spotify-homepage/static/media/bell icon.923118daa1bff2ec2fe3.png",
     "index.html": "/Spotify-homepage/index.html",
-    "main.95868321.css.map": "/Spotify-homepage/static/css/main.95868321.css.map",
-    "main.11f86ea8.js.map": "/Spotify-homepage/static/js/main.11f86ea8.js.map",
+    "main.b0c0b595.css.map": "/Spotify-homepage/static/css/main.b0c0b595.css.map",
+    "main.a1e43b37.js.map": "/Spotify-homepage/static/js/main.a1e43b37.js.map",
     "453.26350957.chunk.js.map": "/Spotify-homepage/static/js/453.26350957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95868321.css",
-    "static/js/main.11f86ea8.js"
+    "static/css/main.b0c0b595.css",
+    "static/js/main.a1e43b37.js"
   ]
 }
